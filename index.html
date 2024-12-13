@@ -6,7 +6,11 @@
 		<title>CeloBank</title>
 
 		<!-- Favicon -->
-		<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/>
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/favicon/apple-icon-57x57.png"
+		/>
 		<link
 			rel="apple-touch-icon"
 			sizes="60x60"
@@ -83,7 +87,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
 			rel="stylesheet"
 		/>
 
@@ -92,6 +96,1015 @@
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="./assets/css/styles.css" />
+
+		<!-- Animation -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 	</head>
-	<body></body>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<!-- Logo -->
+					<a href="">
+						<img
+							src="./assets/logo/Logo.svg"
+							alt="CeloBank"
+							class="header__logo"
+						/>
+					</a>
+					<!-- Nav -->
+					<nav class="header__list">
+						<ul class="header__menu">
+							<li>
+								<a href="#!" class="header__link">Home</a>
+							</li>
+							<li>
+								<a href="#!" class="header__link">Products</a>
+							</li>
+							<li>
+								<a href="#!" class="header__link">Features</a>
+							</li>
+							<li>
+								<a href="#!" class="header__link">Blog</a>
+							</li>
+						</ul>
+					</nav>
+
+					<!-- Action -->
+					<div class="header__cta">
+						<a href="#!" class="header__login">Log in</a>
+						<button class="btn header__signup">Sign up</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Hero -->
+			<section class="hero">
+				<div class="container">
+					<div class="hero__inner">
+						<!-- Hero left -->
+						<section class="hero__content">
+							<p class="section-title">Digital Smart Wallet</p>
+							<h1 class="hero__heading">
+								Digital
+								<strong
+									class="hero__pay animate__animated animate__swing"
+									>Payment</strong
+								>
+								For Everyone.
+							</h1>
+							<p class="hero__desc">
+								We bring together eveything that’s required to
+								build websites and apps that accept payments and
+								send payouts globally. We are the best platform.
+							</p>
+							<form action="" method="post" class="hero__form">
+								<input
+									type="email"
+									placeholder="Your email address"
+									class="hero__input"
+									pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+									required
+								/>
+								<button type="submit" class="hero__submit btn">
+									Get Started
+								</button>
+							</form>
+							<p class="hero__post">
+								*We’ll respect the inbox and never share your
+								email.
+							</p>
+						</section>
+						<!-- Hero right -->
+						<div class="hero__media">
+							<div class="hero-account">
+								<div class="hero-account__infor">
+									<!-- Card -->
+									<div class="credit-card hero-account__card">
+										<div class="hero-account__top">
+											<p
+												class="hero-account__balance credit-card__blance"
+											>
+												Main Balance
+											</p>
+											<div
+												class="hero-account__decor credit-card__decor"
+											></div>
+											<div
+												class="hero-account__decor credit-card__decor"
+											></div>
+										</div>
+										<strong
+											class="hero-account__money credit-card__money"
+										>
+											$78,355.17
+										</strong>
+
+										<div class="hero-own">
+											<p
+												class="hero-own__top credit-card__own"
+											>
+												VALID THUR
+											</p>
+											<p
+												class="hero-own__top credit-card__own"
+											>
+												CARD HOLDER
+											</p>
+											<b
+												class="hero-own__bottom credit-card__bottom"
+												>08/22</b
+											>
+											<b
+												class="hero-own__bottom credit-card__bottom"
+											>
+												Md Moshqur Alam
+											</b>
+										</div>
+										<img
+											src="./assets/img/card-decor-01.svg"
+											alt=""
+											class="hero-account__eddy"
+										/>
+										<img
+											src="./assets/img/card-decor-02.svg"
+											alt=""
+											class="hero-account__eddy hero__eddy-top"
+										/>
+									</div>
+									<!-- Middle -->
+									<div class="hero-account__middle">
+										<p class="hero-account__transection">
+											Transections
+										</p>
+										<img
+											src="./assets/icon/hero-icon.svg"
+											alt=""
+										/>
+									</div>
+									<!-- Bottom -->
+									<div class="hero-list">
+										<!-- Item 1 -->
+										<div
+											class="hero-list__item animate__animated animate__backInDown"
+										>
+											<div class="hero-list__icon-wrap">
+												<img
+													src="./assets/icon/Hero-recievied-01.svg"
+													alt=""
+													class="hero-list__icon"
+												/>
+											</div>
+											<div class="hero-list__middle">
+												<strong class="hero-list__top">
+													Received Money
+												</strong>
+												<p class="hero-list__bottom">
+													email@gmail.com
+												</p>
+											</div>
+
+											<div class="hero-list__right">
+												<strong class="hero-list__top">
+													+$1,600
+												</strong>
+												<p class="hero-list__bottom">
+													Sep 23
+												</p>
+											</div>
+										</div>
+
+										<!-- Item 2 -->
+										<div
+											class="hero-list__item animate__animated animate__backInDown"
+										>
+											<div class="hero-list__icon-wrap">
+												<img
+													src="./assets/icon/hero-send.svg"
+													alt=""
+													class="hero-list__icon"
+												/>
+											</div>
+											<div class="hero-list__middle">
+												<strong class="hero-list__top">
+													Send Money
+												</strong>
+												<p class="hero-list__bottom">
+													Airbnb Payment
+												</p>
+											</div>
+
+											<div class="hero-list__right">
+												<strong class="hero-list__top">
+													- $600
+												</strong>
+												<p class="hero-list__bottom">
+													Sep 23
+												</p>
+											</div>
+										</div>
+
+										<!-- Item 3 -->
+										<div
+											class="hero-list__item animate__animated animate__backInDown"
+										>
+											<div class="hero-list__icon-wrap">
+												<img
+													src="./assets/icon/Hero-recievied-02.svg"
+													alt=""
+													class="hero-list__icon"
+												/>
+											</div>
+											<div class="hero-list__middle">
+												<strong class="hero-list__top">
+													Received Money
+												</strong>
+												<p class="hero-list__bottom">
+													Upwork Earning
+												</p>
+											</div>
+
+											<div class="hero-list__right">
+												<strong class="hero-list__top">
+													+$1,600
+												</strong>
+												<p class="hero-list__bottom">
+													Sep 23
+												</p>
+											</div>
+										</div>
+
+										<!-- Item 4 -->
+										<div
+											class="hero-list__item animate__animated animate__backInDown"
+										>
+											<div class="hero-list__icon-wrap">
+												<img
+													src="./assets/icon/hero-pay.svg"
+													alt=""
+													class="hero-list__icon"
+												/>
+											</div>
+											<div class="hero-list__middle">
+												<strong class="hero-list__top">
+													Pay Bill
+												</strong>
+												<p class="hero-list__bottom">
+													Electricity Bill
+												</p>
+											</div>
+
+											<div class="hero-list__right">
+												<strong class="hero-list__top">
+													+$1,600
+												</strong>
+												<p class="hero-list__bottom">
+													Sep 23
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Deposite -->
+							<div
+								class="hero-deposite animate__animated animate__backInDown"
+							>
+								<div class="hero-deposite__left">
+									<img
+										src="./assets/icon/hero-deposite.svg"
+										alt=""
+									/>
+									<p class="hero-deposite__text">Deposite</p>
+								</div>
+
+								<span class="hero-deposite__money">$32000</span>
+							</div>
+
+							<!-- SECURED FUNDS -->
+							<div
+								class="hero-secured animate__animated animate__bounceInRight"
+							>
+								<img
+									src="./assets/icon/hero-SECURED.svg"
+									alt=""
+								/>
+								<div class="hero-secured__infor">
+									<span class="hero-secured__cash"
+										>$1.310</span
+									>
+									<p class="hero-secured__text">
+										SECURED FUNDS
+									</p>
+								</div>
+							</div>
+
+							<!-- Interest -->
+							<div
+								class="hero-interest animate__animated animate__flip"
+							>
+								<span class="hero-interest__percent">0%</span>
+								<p class="hero-interest__text">Interest</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- How its work -->
+			<section class="about">
+				<div class="container">
+					<div class="about__inner">
+						<!-- Left -->
+						<div class="about__media">
+							<figure class="about__image-wrap">
+								<img
+									src="./assets/img/about-media.png"
+									alt=""
+									class="about__img"
+								/>
+							</figure>
+							<div
+								class="about__success wow animate__animated animate__bounceInRight"
+							>
+								<div class="about-icon">
+									<div class="about-icon__circle">
+										<img
+											src="./assets/icon/about-icon.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="about-text">
+									<p class="about-text__congratulation">
+										Congratulations
+									</p>
+									<p class="about-text__desc">
+										Your account activated
+									</p>
+								</div>
+							</div>
+							<div
+								class="about__decor wow animate__animated animate__bounceInDown"
+							>
+								<div class="about__decor-inner">
+									<img
+										src="./assets/img/about-decor.svg"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+						<!-- Right -->
+						<section class="about__content">
+							<p class="section-title">Digital Smart Wallet</p>
+							<h2 class="about__heading section-heading">
+								How It Works
+							</h2>
+
+							<div class="about-list">
+								<!-- Item 1 -->
+								<div class="about-list__item">
+									<h3 class="about-list__heading">
+										1. Open a High Interest Checking account
+									</h3>
+									<p class="about-list__desc">
+										Fund your bank account with a minimum
+										balance of $100. Enroll in 3 minutes or
+										less!
+									</p>
+								</div>
+
+								<!-- Item 2 -->
+								<div class="about-list__item">
+									<h3 class="about-list__heading">
+										2. 10 point-of-sale transactions each
+										Month that are at least $10 each.
+									</h3>
+									<p class="about-list__desc">
+										Be sure to use your rewards checking
+										account as often as possible in order to
+										accue APYI
+									</p>
+								</div>
+
+								<!-- Item 3 -->
+								<div class="about-list__item">
+									<h3 class="about-list__heading">
+										3. Receive up to 5.50% APY
+									</h3>
+									<p class="about-list__desc">
+										The APY you earn will be based on your
+										account balance and satisfying the
+										transaction requirement.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Feature -->
+			<section class="feature">
+				<div class="container">
+					<div class="feature__inner">
+						<!-- Top -->
+						<section class="feature__content">
+							<p class="section-title">Digital Smart Wallet</p>
+							<h2 class="feature__heading section-heading">
+								One Card For All Your Payments
+							</h2>
+							<p class="feature__desc">
+								We bring together eveything that’s required to
+								build websites and apps that accept payments and
+								send payouts globally. We are the best platform.
+							</p>
+
+							<div class="feature-event">
+								<p class="feature-event__endow">
+									Global Payments
+								</p>
+								<p class="feature-event__endow">
+									One-Click Purchase
+								</p>
+								<p class="feature-event__endow">
+									Friendly Price
+								</p>
+							</div>
+							<button class="btn feature__btn">
+								Get Started
+							</button>
+						</section>
+						<div class="feature__media">
+							<!-- Card -->
+							<div class="feature-card credit-card">
+								<div class="feature-card__top">
+									<p
+										class="credit-card__blance feature-card__blance"
+									>
+										Main Balance
+									</p>
+
+									<div
+										class="feature-card__decor credit-card__decor"
+									></div>
+									<div
+										class="feature-card__decor credit-card__decor"
+									></div>
+								</div>
+								<strong
+									class="feature-card__money credit-card__money"
+								>
+									$78,355.17
+								</strong>
+
+								<div class="feature-own">
+									<p
+										class="feature-own__top credit-card__own"
+									>
+										VALID THUR
+									</p>
+									<p
+										class="feature-own__top credit-card__own"
+									>
+										CARD HOLDER
+									</p>
+									<b
+										class="feature-own__bottom credit-card__bottom"
+										>08/22</b
+									>
+									<b
+										class="feature-own__bottom credit-card__bottom"
+									>
+										Md Moshqur Alam
+									</b>
+								</div>
+							</div>
+							<div
+								class="feature-send wow animate__animated animate__bounceInRight"
+							>
+								<div class="feature-list__icon-wrap">
+									<img
+										src="./assets/icon/hero-send.svg"
+										alt=""
+										class="feature-list__icon"
+									/>
+								</div>
+								<div class="feature-list__middle">
+									<strong class="feature-list__top">
+										Send Money
+									</strong>
+									<p class="feature-list__bottom">
+										Airbnb Payment
+									</p>
+								</div>
+
+								<div class="feature-list__right">
+									<strong class="feature-list__top">
+										- $600
+									</strong>
+									<p class="feature-list__bottom">Sep 23</p>
+								</div>
+							</div>
+
+							<div
+								class="feature-income animate__animated animate__bounceInDown"
+							>
+								<div class="feature-income__icon">
+									<img
+										src="./assets/icon/Hero-recievied-02.svg"
+										alt=""
+									/>
+								</div>
+								<p class="feature-income__text">Income</p>
+								<p class="feature-income__money">$1250</p>
+							</div>
+						</div>
+
+						<!-- Bottom -->
+						<div class="feature__media">
+							<figure class="feature__img-wrap">
+								<img
+									src="./assets/img/feature-img.png"
+									alt=""
+									class="feature__img"
+								/>
+							</figure>
+							<div class="feature-bank">
+								<p class="feature-bank__choose">
+									Choose payment method:
+								</p>
+								<div class="feature-bank__item">
+									<img
+										src="./assets/logo/bank-master.png"
+										alt=""
+									/>
+									<img
+										src="./assets/logo/bank-mestro.png"
+										alt=""
+									/>
+									<img
+										src="./assets/logo/bank-C.png"
+										alt=""
+									/>
+									<img
+										src="./assets/logo/bank-visa.png"
+										alt=""
+									/>
+									<img
+										src="./assets/logo/bank-pay.png"
+										alt=""
+									/>
+									<img
+										src="./assets/logo/bank-add.png"
+										alt=""
+									/>
+								</div>
+							</div>
+
+							<div class="feature__decor">
+								<img
+									src="./assets/logo/bank-decor.svg"
+									alt=""
+								/>
+							</div>
+						</div>
+						<section
+							class="feature__content feature__content-bottom"
+						>
+							<p class="section-title">Digital Smart Wallet</p>
+							<h2 class="feature__heading section-heading">
+								Transfer and Deposite Your Money Anytime
+							</h2>
+							<p class="feature__desc">
+								We bring together eveything that’s required to
+								build websites and apps that accept payments and
+								send payouts globally. We are the best platform.
+							</p>
+
+							<div class="feature-event">
+								<p class="feature-event__endow">
+									Powerfull App
+								</p>
+								<p class="feature-event__endow">
+									Transparency And Speed
+								</p>
+								<p class="feature-event__endow">
+									Multiple Use Capabilities
+								</p>
+							</div>
+							<button class="btn feature__btn">
+								Get Started
+							</button>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Testimonial -->
+			<section class="testimonial">
+				<div class="container">
+					<div class="testimonial__inner">
+						<!-- Top -->
+						<section class="testimonial__top">
+							<p class="section-title testimonial__title">
+								Our Testimonial
+							</p>
+							<h2 class="section-heading">What Clients Says</h2>
+							<p class="testimonial__desc">
+								Read what clients says about us and about our
+								online banking services that may inspire you
+							</p>
+						</section>
+
+						<!-- Bottom -->
+						<div class="testimonial__bottom">
+							<div class="testimonial__list">
+								<!-- Item 1 -->
+								<div class="testimonial-item">
+									<div class="testimonial-item__respones">
+										<p class="testimonial-item__desc">
+											Fantastic platform for online
+											banking. The best online banking
+											platform I have used. Payments,
+											loans, and money transfers have
+											never been so much easier before. I
+											am very much happy about this great
+											online bank.
+										</p>
+									</div>
+									<div class="testimonial-item__user">
+										<figure
+											class="testimonial-item__img-wrap"
+										>
+											<img
+												src="./assets/img/testimonial-img-01.png"
+												alt=""
+												class="testimonial-item__img"
+											/>
+										</figure>
+										<p class="testimonial-item__name">
+											Alastair Cook
+										</p>
+										<span class="testimonial-item__job">
+											Businessmen
+										</span>
+									</div>
+								</div>
+
+								<!-- Item 2 -->
+								<div class="testimonial-item">
+									<div class="testimonial-item__respones">
+										<p class="testimonial-item__desc">
+											Fantastic platform for online
+											banking. The best online banking
+											platform I have used. Payments,
+											loans, and money transfers have
+											never been so much easier before. I
+											am very much happy about this great
+											online bank.
+										</p>
+									</div>
+									<div class="testimonial-item__user">
+										<figure
+											class="testimonial-item__img-wrap"
+										>
+											<img
+												src="./assets/img/testimonial-img-02.png"
+												alt=""
+												class="testimonial-item__img"
+											/>
+										</figure>
+										<p class="testimonial-item__name">
+											Alastair Foaks
+										</p>
+										<span class="testimonial-item__job">
+											Businessmen
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="testimonial__dots">
+								<div class="testimonial__dot"></div>
+								<div class="testimonial__dot"></div>
+								<div class="testimonial__dot"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Blog -->
+			<section class="blog">
+				<div class="container">
+					<div class="blog__top">
+						<section class="blog__content">
+							<p class="section-title">Our Blog</p>
+							<h2 class="section-heading">Get The Updates</h2>
+							<p class="blog__desc">
+								Read our blog for the regular updates about us
+								and about our online banking services that may
+								inspire you
+							</p>
+						</section>
+						<div class="blog__cta">
+							<button class="btn blog__btn">Read All</button>
+						</div>
+					</div>
+
+					<div class="blog__list">
+						<!-- Item 1 -->
+						<article class="blog-item">
+							<figure class="blog-item__media">
+								<img
+									src="./assets/img/blog-img-01.jpg"
+									alt=""
+									class="blog-item__img"
+								/>
+							</figure>
+							<div class="blog-item__content">
+								<span class="blog-item__day">
+									July 03, 2022
+								</span>
+								<p class="blog-item__desc">
+									Online bank is the best and secure way to
+									save in the future...
+								</p>
+								<a href="#!" class="blog-item__read">
+									Read Blog
+								</a>
+							</div>
+						</article>
+
+						<!-- Item 2 -->
+						<article class="blog-item">
+							<figure class="blog-item__media">
+								<img
+									src="./assets/img/blog-item-02.jpg"
+									alt=""
+									class="blog-item__img"
+								/>
+							</figure>
+							<div class="blog-item__content">
+								<span class="blog-item__day">
+									July 03, 2022
+								</span>
+								<p class="blog-item__desc">
+									Why do you need to open a bank account in
+									online..
+								</p>
+								<a href="#!" class="blog-item__read">
+									Read Blog
+								</a>
+							</div>
+						</article>
+
+						<!-- Item 3 -->
+						<article class="blog-item">
+							<figure class="blog-item__media">
+								<img
+									src="./assets/img/blog-item-03.jpg"
+									alt=""
+									class="blog-item__img"
+								/>
+							</figure>
+							<div class="blog-item__content">
+								<span class="blog-item__day">
+									July 03, 2022
+								</span>
+								<p class="blog-item__desc">
+									The benefits that we get from credit card at
+									anytime...
+								</p>
+								<a href="#!" class="blog-item__read">
+									Read Blog
+								</a>
+							</div>
+						</article>
+
+						<!-- Item 4 -->
+						<article class="blog-item">
+							<figure class="blog-item__media">
+								<img
+									src="./assets/img/blog-item-04.jpg"
+									alt=""
+									class="blog-item__img"
+								/>
+							</figure>
+							<div class="blog-item__content">
+								<span class="blog-item__day">
+									July 03, 2022
+								</span>
+								<p class="blog-item__desc">
+									How to manage your money in online in this
+									busy days...
+								</p>
+								<a href="#!" class="blog-item__read">
+									Read Blog
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Download -->
+			<section class="download">
+				<div class="container">
+					<div class="download__inner">
+						<p class="section-title download__title">Our App</p>
+						<h2 class="section-heading download__heading">
+							Download the Apps
+						</h2>
+
+						<p class="download__desc">
+							Download our mobile apps and get started today with
+							a special online bank and move faster
+						</p>
+
+						<div class="download__app">
+							<img
+								src="./assets/img/google-play.svg"
+								alt=""
+								class="download__app-item"
+							/>
+							<img
+								src="./assets/img/app-store.svg"
+								alt=""
+								class="download__app-item"
+							/>
+						</div>
+						<img
+							src="./assets/icon/download-star.svg"
+							alt=""
+							class="download__decor download__top-right animate__animated wow animate__lightSpeedInRight"
+						/>
+						<img
+							src="./assets/icon/download-star.svg"
+							alt=""
+							class="download__decor download__top-left animate__animated wow animate__lightSpeedInRight"
+						/>
+						<img
+							src="./assets/icon/download-star.svg"
+							alt=""
+							class="download__decor download__bottom-right animate__animated wow animate__lightSpeedInRight"
+						/>
+						<img
+							src="./assets/icon/download-star.svg"
+							alt=""
+							class="download__decor download__bottom-left animate__animated wow animate__lightSpeedInRight"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<section class="footer">
+			<div class="container">
+				<div class="footer__infor">
+					<div class="footer-list">
+						<div class="footer-list__item">
+							<img src="./assets/logo/Logo.svg" alt="" />
+						</div>
+						<div class="footer-list__item">
+							<h3 class="footer-list__heading">Sitemap</h3>
+							<ul class="footer-list__content">
+								<li>
+									<a href="#!" class="footer-list__link">
+										Home
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Abouts
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Growers
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Merchants
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Contact</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer-list__item">
+							<h3 class="footer-list__heading">Socials</h3>
+							<ul class="footer-list__content">
+								<li>
+									<a href="#!" class="footer-list__link">
+										Facebook
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Linkedin
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Instagram
+									</a>
+								</li>
+								<li>
+									<a href="#!" class="footer-list__link">
+										Twitter
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer-list__item">
+							<div class="footer-list__head">
+								<h3 class="footer-list__heading">
+									Head Office
+								</h3>
+								<ul class="footer-list__content">
+									<li>
+										<a href="#!" class="footer-list__link">
+											Xilliams Corner Wine © 2017. 1112 A
+											Market St # Ste B22,
+											Charlottesville, CA 45565
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-list__letter">
+								<h3 class="footer-list__heading">
+									News letter
+								</h3>
+								<form
+									action=""
+									method="post"
+									class="footer__form"
+								>
+									<input
+										type="email"
+										class="footer__input"
+										placeholder="Email address..."
+										required
+										pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+									/>
+									<button class="btn footer__btn">
+										Subscribe
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<ul class="footer-list__content">
+							<li>
+								<a href="#!" class="footer-list__link">
+									email@gmail.com
+								</a>
+							</li>
+						</ul>
+
+						<ul class="footer-list__content">
+							<li>
+								<a href="#!" class="footer-list__link">
+									(123) 456-7890
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer__copy-wrap">
+					<p class="footer__copy">
+						© 2020 Ligft Media All rights reserved.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+			integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
 </html>
